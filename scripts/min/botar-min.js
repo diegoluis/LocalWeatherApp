@@ -1,0 +1,1 @@
+function getWeather(e){cond=e.weather[0].description,convertToF(temperature),console.log("temperature is: "+temperature+" conditions are: "+cond)}var latitude,longitude,temperature,tempF,city,cond;$.getJSON("http://api.openweathermap.org/data/2.5/weather?lat=latitude&lon=longitude&units=metric&APPID=9dc1be590fc08a7d6b24934b74bfd339",getWeather);

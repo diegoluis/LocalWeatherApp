@@ -1,0 +1,199 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline; }
+
+html {
+  line-height: 1; }
+
+ol, ul {
+  list-style: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle; }
+
+q, blockquote {
+  quotes: none; }
+  q:before, q:after, blockquote:before, blockquote:after {
+    content: "";
+    content: none; }
+
+a img {
+  border: none; }
+
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
+  display: block; }
+
+/* just to make the tests */
+@font-face {
+  font-family: 'Catamaran', sans-serif; }
+.wrapper {
+  width: 100%; }
+
+body {
+  font-family: 'Catamaran', sans-serif;
+  font-size: 100%;
+  font-weight: 100;
+  width: auto;
+  max-width: 100%;
+  height: auto;
+  color: white;
+  text-align: center; }
+
+.bgImg {
+  height: 100vh;
+  max-height: 100%; }
+
+.city {
+  margin-top: 1%;
+  margin-bottom: .5%; }
+
+.cityTitle {
+  font-size: 2.5rem;
+  font-weight: 100;
+  border-bottom: 1px solid white;
+  display: inline-block;
+  padding: .5%; }
+
+.time, .textCond {
+  font-size: 1.5rem;
+  margin: 1%; }
+
+/* -- Icons --*/
+.icons {
+  height: 24vh;
+  width: 100%;
+  margin: 4% 0 3% 0; }
+
+/* ----- change images -------- */
+/* ------ */
+.generic {
+  background: url(http://diegoluis.net/imageRep/localweather/generic.svg) 50% 0;
+  background-size: contain;
+  background-repeat: no-repeat; }
+
+.bgGeneric {
+  background: url(http://diegoluis.net/imageRep/localweather/BGgeneric.jpg) 50% 0;
+  background-size: cover;
+  background-repeat: no-repeat; }
+
+/* ------ */
+.clear {
+  background: url(http://diegoluis.net/imageRep/localweather/clear.svg) 50% 0;
+  background-size: contain;
+  background-repeat: no-repeat; }
+
+.bgClear {
+  background: url(http://diegoluis.net/imageRep/localweather/BGclear.jpg) 50% 0;
+  background-size: cover;
+  background-repeat: no-repeat; }
+
+/* ------ */
+.clouds {
+  background: url(http://diegoluis.net/imageRep/localweather/clouds.svg) 50% 0;
+  background-size: contain;
+  background-repeat: no-repeat; }
+
+.bgClouds {
+  background: url(http://diegoluis.net/imageRep/localweather/BGclouds.jpg) 50% 0;
+  background-size: cover;
+  background-repeat: no-repeat; }
+
+/* ------ */
+.drizzle {
+  background: url(http://diegoluis.net/imageRep/localweather/drizzle.svg) 50% 0;
+  background-size: contain;
+  background-repeat: no-repeat; }
+
+.bgDrizzle {
+  background: url(http://diegoluis.net/imageRep/localweather/BGdrizzle.jpg) 50% 0;
+  background-size: cover;
+  background-repeat: no-repeat; }
+
+/* ------ */
+.fog {
+  background: url(http://diegoluis.net/imageRep/localweather/fog.svg) 50% 0;
+  background-size: contain;
+  background-repeat: no-repeat; }
+
+.bgFog {
+  background: url(http://diegoluis.net/imageRep/localweather/BGfog.jpg) 50% 0;
+  background-size: cover;
+  background-repeat: no-repeat; }
+
+/* ------ */
+.rain {
+  background: url(http://diegoluis.net/imageRep/localweather/rain.svg) 50% 0;
+  background-size: contain;
+  background-repeat: no-repeat; }
+
+.bgRain {
+  background: url(http://diegoluis.net/imageRep/localweather/BGrain.jpg) 50% 0;
+  background-size: cover;
+  background-repeat: no-repeat; }
+
+/* ------ */
+.snow {
+  background: url(http://diegoluis.net/imageRep/localweather/snow.svg) 50% 0;
+  background-size: contain;
+  background-repeat: no-repeat; }
+
+.bgSnow {
+  background: url(http://diegoluis.net/imageRep/localweather/BGsnow.jpg) 50% 0;
+  background-size: cover;
+  background-repeat: no-repeat; }
+
+/* ------ */
+.thunder {
+  background: url(http://diegoluis.net/imageRep/localweather/thunder.svg) 50% 0;
+  background-size: contain;
+  background-repeat: no-repeat; }
+
+.bgThunder {
+  background: url(http://diegoluis.net/imageRep/localweather/BGthunder.jpg) 50% 0;
+  background-size: cover;
+  background-repeat: no-repeat; }
+
+/* ------ Temp ------*/
+.tempContainer {
+  margin: 3%; }
+
+.temp {
+  font-size: 5.5rem; }
+
+/* ---- Buttons ------*/
+.btn {
+  background-color: transparent;
+  border: 1px solid white; }
+  .btn:hover {
+    border: 1px solid #6a6e6f; }
+
+.btnConvert {
+  font-size: .8rem; }
+
+.btnUpdate {
+  font-size: 1.8rem;
+  margin-top: 3%; }
+
+/*# sourceMappingURL=screen.css.map */
